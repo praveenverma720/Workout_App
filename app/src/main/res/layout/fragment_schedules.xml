@@ -1,0 +1,24 @@
+
+<layout>
+
+    <data>
+
+        <variable
+            name="workout"
+            type="com.praveen.pilani.workout.viewmodel.WorkoutItem" />
+    </data>
+
+
+    <com.praveen.pilani.workout.util.ui.EmptyRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/schedule_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:colorBackground"
+        app:layoutManager="LinearLayoutManager"
+        tools:context="com.praveen.pilani.workout.ui.SchedulesFragment"
+        tools:listitem="@layout/schedule_list_content" />
+
+
+</layout>

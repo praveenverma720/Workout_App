@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8b05ea</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#f40580</color>
+
+    <color name="colorPrimaryMediumLight">#78909c</color>
+    <color name="colorPrimaryLight">#cfd8dc</color>
+    <color name="selectableItemBackgroundFocused">#b0bec5</color>
+    <color name="selectableItemBackgroundPressed">#90a4ae</color>
+
+    <color name="white">#ffffff</color>
+
+
+    <color name="preference_fallback_accent_color">@color/colorAccent</color>
+</resources>

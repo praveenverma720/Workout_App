@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <item name="workout_list" type="layout">@layout/workout_list_single_pane</item>
+    <bool name="isTwoPane">false</bool>
+</resources>

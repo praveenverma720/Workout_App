@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string-array name="pref_snooze_duration_mins_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>480</item>
+        <item>1440</item>
+    </string-array>
+
+    <string name="pref_key_disconnect_g_fit" translatable="false">com.praveen.pilani.workout.preference.DISCONNECT_G_FIT</string>
+    <string name="pref_key_notification_ringtone" translatable="false">com.praveen.pilani.workout.preference.NOTIFICATION_RINGTONE</string>
+    <string name="pref_key_snooze_duration_mins" translatable="false">ccom.praveen.pilani.workout.preference.SNOOZE_DURATION_MINS</string>
+    <string name="pref_key_snooze" translatable="false">com.praveen.pilani.workout.preference.CATEGORY_SNOOZE</string>
+    <string name="pref_key_notification_vibrate" translatable="false">com.praveen.pilani.workout.preference.NOTIFICATION_VIBRATE</string>
+    <string name="pref_key_notification_led" translatable="false">com.praveen.pilani.workout.preference.NOTIFICATION_LED</string>
+    <string name="pref_key_notifications" translatable="false">com.praveen.pilani.workout.preference.CATEGORY_NOTIFICATIONS</string>
+    <string name="pref_key_account_settings" translatable="false">com.praveen.pilani.workout.preference.CATEGORY_GOOGLE_ACCOUNT</string>
+
+    <integer name="fab_animation_duration">@android:integer/config_mediumAnimTime</integer>
+    <integer name="master_detail_animation_duration">@android:integer/config_mediumAnimTime</integer>
+
+</resources>

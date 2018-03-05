@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/activated"
+        android:drawable="@drawable/ic_expand_less_white_fat_24dp"
+        android:state_activated="true"
+        android:state_pressed="false" />
+    <item
+        android:id="@+id/activated_pressed"
+        android:drawable="@drawable/ic_expand_less_white_fat_24dp"
+        android:state_activated="true"
+        android:state_pressed="true" />
+    <item
+        android:id="@+id/none"
+        android:drawable="@drawable/ic_add_white_fat_24dp" />
+
+
+    <transition
+        android:fromId="@id/activated_pressed"
+        android:toId="@id/none"
+    android:drawable="@drawable/anim_expand_less_to_add"
+    android:reversible="false"
+        />
+
+    <transition
+        android:fromId="@id/activated_pressed"
+        android:toId="@id/activated"
+        android:drawable="@drawable/anim_add_to_expand_less"
+        android:reversible="false"
+        />
+
+</animated-selector>

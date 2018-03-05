@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_add_white_fat_24dp">
+    <target
+        android:animation="@animator/rotate_in"
+        android:name="single_path_group"/>
+    <target
+        android:animation="@animator/add_sw_hide"
+        android:name="sw"/>
+    <target
+        android:animation="@animator/add_ne_to_expand_less_turned"
+        android:name="ne"/>
+</animated-vector>
